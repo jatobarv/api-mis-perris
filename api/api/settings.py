@@ -123,7 +123,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CORS_ORIGIN_REGEX_WHITELIST = ('http://localhost:8000/')
+CORS_ORIGIN_REGEX_WHITELIST = ('http://127.0.0.1:8887')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
